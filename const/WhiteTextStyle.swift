@@ -10,7 +10,7 @@ import SwiftUI
 
 extension View {
     func whitetext15() -> some View{
-        self.font(.system(size: 15)).foregroundColor(.white)
+      self.font(.system(size: 15)).foregroundColor(.white).fontDesign(.rounded)
     }
     func whitetext24() -> some View{
         self.font(.system(size: 24)).foregroundColor(.white)
